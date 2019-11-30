@@ -83,12 +83,12 @@
 
     <br>
         <body>
-            <form action ="action_page11.php">
+            <form method = "post" action ="action_page11.php">
                 <fieldset>
                     <legend> Insurance Matcher: </legend>
                         <meta name="viewport" content="width=device-width, initial-scale=1">
-                        Enter your unique patient id (numbers only) in order to look up a list of doctors in your city that cater to your health issue and are covered by your insurance:
-                        <br> <input type="text" name="pid" value="1"><br>
+                        Enter your unique patient id in order to look up a list of doctors in your city that cater to your health issue and are covered by your insurance:
+                        <br> <input type="text" name="pid" value="(Enter numbers only)"><br><br>
                         <input type="submit" value="Submit">
                         <br>
                 </fieldset>
@@ -98,7 +98,7 @@
 
 <?php
     
-    echo "This text was written with PHP code!";
+   // echo "This text was written with PHP code!";
     
 ?>
 

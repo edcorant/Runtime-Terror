@@ -83,18 +83,18 @@
 
 <br>
 <body>
-    <form action ="action_page4.php">
+    <form method = "post" action ="action_page4.php">
         <fieldset>
             <legend> Search for a Patient: </legend>
                 <meta name="viewport" content="width=device-width, initial-scale=1">
                 Enter the first name and last initial:
                 <br>
-                First Name:
+                First name:
                 <br> <input type="text" name="FirstName" value="Johnny"><br>
                 <br>
-                Last Initial:
-                <br> <input type="text" name="LastName" value="A">
-                <br>
+                Last initial:
+                <br> <input type="text" name="LastInitial" value="A">
+                <br> <br>
                 <input type="submit" value="Submit">
                 <br>
 
@@ -106,18 +106,18 @@
 
 <br>
 <body>
-    <form action ="action_page5.php">
+    <form method = "post" action ="action_page5.php">
         <fieldset>
             <legend> Search for a Doctor: </legend>
                 <meta name="viewport" content="width=device-width, initial-scale=1">
-                Enter the first name (including "Dr." within the name) and last name:
+                Enter the first name (including "Dr." at the start of the name) and last name:
                 <br>
-                First Name:
+                First name:
                 <br> <input type="text" name="FirstName" value="Dr. Johnny"><br>
                 <br>
-                Last Name:
+                Last name:
                 <br> <input type="text" name="LastName" value="Appleseed">
-                <br>
+                <br> <br>
                 <input type="submit" value="Submit">
                 <br>
         </fieldset>
@@ -128,24 +128,23 @@
 
 <br>
 <body>
-    <form action ="action_page6.php">
+    <form method = "post" action ="action_page6.php">
         <fieldset>
             <legend> Patient and Doctor Join: </legend>
                 <meta name="viewport" content="width=device-width, initial-scale=1">
                 Enter the health issue of the patients and doctors you want to join:
                 <br>
                 Specialty:
-                <div class="dropdown">
-                    <button class="dropbtn">Select one</button>
-                    <div class="dropdown-content">
-                        <a href="GP">General Physician</a>
-                        <a href="OBGYN">Obstetrician-Gynecologist</a>
-                        <a href="D">Dermatologist</a>
-                        <a href="C">Cardiologist</a>
-                        <a href="N">Neurologist</a>
-                        <a href="O">Orthopedist</a>
-                    </div>
-                </div>
+                <p>
+                   <select name = "DoctorType">
+                     <option value = "General Physician">General Physician</option>
+                     <option value = "OBGYN">Obstetrician-Gynecologist</option>
+                     <option value = "Dermatologist">Dermatologist</option>
+                     <option value = "Cardiology">Cardiologist</option>
+                      <option value = "Neurology">Neurologist</option>
+                      <option value = "Orthopedic">Orthopedist</option>
+                   </select>
+                </p>
                 <input type="submit" value="Submit">
                 <br>
         </fieldset>
@@ -156,7 +155,7 @@
                 
 <br>
 <body>
-    <form action ="action_page7.php">
+    <form method = "post" action ="action_page7.php">
         <fieldset>
             <legend> Patient and Doctor Joins: </legend>
                 <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -164,22 +163,23 @@
                 Enter the location of the patients and doctors you want to join:
                 <br>
                 Places:
-                <div class="dropdown">
-                <button class="dropbtn">Select one</button>
-                  <div class="dropdown-content">
-                    <a href="BR">Boca Raton, FL</a>
-                    <a href="WPB">West Palm Beach, FL</a>
-                    <a href="MIA">Miami, FL</a>
-                    <a href="GAIN">Gainesville, FL</a>
-                    <a href="PB">Pompano Beach, FL</a>
-                    <a href="Jax">Jacksonville, FL </a>
-                    <a href="ORL">Orlando, FL </a>
-                    <a href="TAM">Tampa, FL </a>
-                    <a href="MEL">Melbourne, FL </a>
-                    <a href="TAL">Tallahassee, FL </a>
-                    <a href="HOL">Hollywood, FL </a>
-                  </div>
-                </div>
+                <p>
+                   <select name = "Location">
+                     <option value = "Boca Raton, FL">Boca Raton, FL</option>
+                     <option value = "West Palm Beach, FL">West Palm Beach, FL</option>
+                     <option value = "Miami, FL">Miami, FL</option>
+                     <option value = "Gainesville, FL">Gainesville, FL</option>
+                      <option value = "Pompano Beach, FL">Pompano Beach, FL</option>
+                      <option value = "Jacksonville, FL">Jacksonville, FL</option>
+                    <option value = "Orlando, FL">Orlando, FL</option>
+                    <option value = "Tampa, FL">Tampa, FL</option>
+                    <option value = "Melbourne, FL">Melbourne, FL</option>
+                    <option value = "Tallahassee, FL">Tallahassee, FL</option>
+                    <option value = "Hollywood, FL">Hollywood, FL</option>
+                        
+                    
+                   </select>
+                </p>
                 <input type="submit" value="Submit">
                 <br>
         </fieldset>
@@ -190,7 +190,7 @@
 
 <?php
     
-    echo "This text was written with PHP code!";
+  //  echo "This text was written with PHP code!";
     
 ?>
 

@@ -1,4 +1,5 @@
 <?php
-
-// action_page7.php
+    $dpLocation = $_POST['Location'];
+    echo "<br>" . $dpLocation;
+// printing the location of the patient/doctor join
 ?>

@@ -53,12 +53,20 @@
     
 <br>
     <body>
-        <form action ="action_page10.php">
+        <form method = "post" action ="action_page10.php">
             <fieldset>
-                <legend> Sort Patients: </legend>
+                <legend> Sort Patients </legend>
                     <meta name="viewport" content="width=device-width, initial-scale=1">
-                    Press this button if you want to sort all patients in the database seen by one specific doctor:
+                    Sort all patients in the database seen by one specific doctor:
                     <br>
+            
+                    First name of doctor (including "Dr." at the start of the name):
+                    <br> <input type="text" name="FirstName" value="Dr. Johnny"><br>
+                    <br>
+                    Last name of doctor:
+                    <br> <input type="text" name="LastName" value="Appleseed">
+                    <br> <br>
+
                     <input type="submit" value="Sort">
                     <br>
             </fieldset>
@@ -69,7 +77,7 @@
 
 <?php
     
-    echo "This text was written with PHP code!";
+    //echo "This text was written with PHP code!";
     
 ?>
 

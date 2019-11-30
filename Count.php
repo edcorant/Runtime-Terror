@@ -84,24 +84,23 @@
 
     <br>
     <body>
-        <form action ="action_page8.php">
+        <form method = "post" action ="action_page8.php">
             <fieldset>
-                <legend> The count of the number of doctors: </legend>
+                <legend> Count the number of doctors </legend>
                     <meta name="viewport" content="width=device-width, initial-scale=1">
-                    Enter the specfic specialty:
+                    Having one specific specialty:
                     <br>
-                    Specialty:
-                    <div class="dropdown">
-                        <button class="dropbtn">Select one</button>
-                        <div class="dropdown-content">
-                            <a href="GP">General Physician</a>
-                            <a href="OBGYN">Obstetrician-Gynecologist</a>
-                            <a href="D">Dermatologist</a>
-                            <a href="C">Cardiologist</a>
-                            <a href="N">Neurologist</a>
-                            <a href="O">Orthopedist</a>
-                        </div>
-                    </div>
+                   
+                    <p>
+                       <select name = "DoctorType">
+                         <option value = "General Physician">General Physician</option>
+                         <option value = "OBGYN">Obstetrician-Gynecologist</option>
+                         <option value = "Dermatologist">Dermatologist</option>
+                         <option value = "Cardiology">Cardiologist</option>
+                          <option value = "Neurology">Neurologist</option>
+                          <option value = "Orthopedic">Orthopedist</option>
+                       </select>
+                    </p>
                     <input type="submit" value="Submit">
                     <br>
             </fieldset>
@@ -110,26 +109,23 @@
     
     <br>
     <body>
-        <form action ="action_page9.php">
+        <form method = "post" action ="action_page9.php">
             <fieldset>
-                <legend> The count of the number of doctors: </legend>
+                <legend> Count the number of doctors </legend>
                     <meta name="viewport" content="width=device-width, initial-scale=1">
-            The number of doctors covered by the selected insurance company:
+            Covered by one specific insurance company:
               <br>
-              Specialty:
-              <div class="dropdown">
-                  <button class="dropbtn">Select one</button>
-                  <div class="dropdown-content">
-                      <a href="AET">Aetna</a>
-                      <a href="BCBS">Blue Cross Blue Shield</a>
-                      <a href="CIG">Cigna</a>
-                      <a href="HUM">Humana</a>
-                      <a href="LIFE">Lifetime Healthcare</a>
-                      <a href="MEDC">Medicare</a>
-                      <a href="STA">State Farm</a>
-                      <a href="UNIT">United Healthcare</a>
-                  </div>
-              </div>
+              <select name = "insuranceComp">
+                <option value = "Aetna">Aetna</option>
+                <option value = "Cigna">Cigna</option>
+                <option value = "Humana">Humana</option>
+                <option value = "United">United</option>
+                 <option value = "Medicare">Medicare</option>
+                 <option value = "StateFarm">StateFarm</option>
+                <option value = "Lifetime">Lifetime</option>
+                <option value = "Blue Cross Blue Shield">Blue Cross Blue Shield</option>
+              </select>
+                <br> <br>
               <input type="submit" value="Submit">
               <br>
             </fieldset>
@@ -141,7 +137,7 @@
 
 <?php
     
-    echo "This text was written with PHP code!";
+    //echo "This text was written with PHP code!";
     
 ?>
 

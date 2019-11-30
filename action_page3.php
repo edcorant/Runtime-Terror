@@ -1,4 +1,5 @@
 <?php
-
-// action_page3.php
+    $patientId = $_POST['pid'];
+    echo "<br>" . $patientId;
+//
 ?>
