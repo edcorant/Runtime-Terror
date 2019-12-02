@@ -95,7 +95,7 @@
                        <select name = "DoctorType">
                          <option value = "General Physician">General Physician</option>
                          <option value = "OBGYN">Obstetrician-Gynecologist</option>
-                         <option value = "Dermatologist">Dermatologist</option>
+                         <option value = "Dermatology">Dermatologist</option>
                          <option value = "Cardiology">Cardiologist</option>
                           <option value = "Neurology">Neurologist</option>
                           <option value = "Orthopedic">Orthopedist</option>
@@ -116,14 +116,14 @@
             Covered by one specific insurance company:
               <br>
               <select name = "insuranceComp">
-                <option value = "Aetna">Aetna</option>
-                <option value = "Cigna">Cigna</option>
-                <option value = "Humana">Humana</option>
-                <option value = "United">United</option>
-                 <option value = "Medicare">Medicare</option>
-                 <option value = "StateFarm">StateFarm</option>
-                <option value = "Lifetime">Lifetime</option>
-                <option value = "Blue Cross Blue Shield">Blue Cross Blue Shield</option>
+                <option value = "0">Aetna</option>
+                <option value = "1">Cigna</option>
+                <option value = "2">Humana</option>
+                <option value = "3">United</option>
+                 <option value = "4">Medicare</option>
+                 <option value = "5">StateFarm</option>
+                <option value = "6">Lifetime</option>
+                <option value = "7">Blue Cross Blue Shield</option>
               </select>
                 <br> <br>
               <input type="submit" value="Submit">
