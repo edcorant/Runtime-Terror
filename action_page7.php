@@ -19,5 +19,5 @@
     {
        print_r($row);
     }
-// printing the location of the patient/doctor join
+//  patient/doctor join on location
 ?>

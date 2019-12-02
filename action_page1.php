@@ -18,7 +18,7 @@
     $locationChosen = $_POST['Location'];
     
     $sql = "SELECT * FROM Patient;"; // finding the next P_id
-    $result = mysqli_query($conn, $sql);
+    $result = mysqli_query($conn, $sql); // next time, we will use auto increment instead
     $nextPid = mysqli_num_rows($result);
     
     $sql = "INSERT INTO Patient (`City`, `P_id`, `P_Name`, `Health_Issue`) VALUES ('$locationChosen', '$nextPid', '$name', '$drType');";
