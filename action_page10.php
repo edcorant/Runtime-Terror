@@ -17,14 +17,22 @@
     while($row = mysqli_fetch_array($result))
         $dID = $row[0];
     
-    // $sql = "SELECT P_Name FROM Sees, Patient WHERE D_id = '$dID' AND Patient.P_id = Sees.P_id;"; // gets names of patients seen by specific doctor
     $sql = "SELECT P_Name FROM Patient WHERE P_Name IN (SELECT P_Name FROM Sees, Patient WHERE D_id = '$dID' AND Patient.P_id = Sees.P_id) ORDER BY P_Name ASC;";
     $result = mysqli_query($conn, $sql);
     $resultCheck = mysqli_num_rows($result);
-    // echo "<br>" . $resultCheck . "<br>";
     
-    while($row = mysqli_fetch_array($result))
-        print_r($row);
+    echo "Patients in the database seen by " . $name . " sorted in alphabetical order: <br>";
+    foreach ($result as $key => $data){
+    ?>
+        <tr>
+            <td><?= $data['P_Name'] ?></td>
+            <br>
+            <td>
+                <i class="fa fa-edit"></i>
+                <i class="fa fa-trash"></i>
+            </td>
+        </tr>
+    <?php }
     
 // Sort function; find all patients seen by one doctor and sort alphabetically
 ?>

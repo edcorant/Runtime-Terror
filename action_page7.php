@@ -15,9 +15,19 @@
     $resultCheck = mysqli_num_rows($result);
     echo "<br>" . $resultCheck . " doctor and patient matches found having location = " . $dpLocation . ". <br>";
     echo "<br>";
-    while($row = mysqli_fetch_array($result)) // code works; try to figure out how to print better
-    {
-       print_r($row);
-    }
+    
+    foreach ($result as $key => $data){
+    ?>
+        <tr>
+            <td><?= ++$key ?></td>:
+            <td><?= $data['P_Name'] ?></td>,
+            <td><?= $data['D_Name'] ?></td>
+            <br>
+            <td>
+                <i class="fa fa-edit"></i>
+                <i class="fa fa-trash"></i>
+            </td>
+        </tr>
+    <?php }
 //  patient/doctor join on location
 ?>

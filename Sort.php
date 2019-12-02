@@ -57,7 +57,7 @@
             <fieldset>
                 <legend> Sort Patients </legend>
                     <meta name="viewport" content="width=device-width, initial-scale=1">
-                    Sort all patients in the database seen by one specific doctor:
+                    Sort all patients in the database alphabetically seen by one specific doctor:
                     <br>
             
                     First name of doctor (including "Dr." at the start of the name):
