@@ -92,6 +92,20 @@
                 
                </select>
             </p>
+            
+            <h4> Choose insurance company: </h4>
+            <p>
+            <select name = "insuranceComp">
+              <option value = "0">Aetna</option>
+              <option value = "1">Cigna</option>
+              <option value = "2">Humana</option>
+              <option value = "3">United</option>
+               <option value = "4">Medicare</option>
+               <option value = "5">StateFarm</option>
+              <option value = "6">Lifetime</option>
+              <option value = "7">Blue Cross Blue Shield</option>
+            </select>
+            </p>
             <input type="submit" value="Submit">
             <br>
                 
