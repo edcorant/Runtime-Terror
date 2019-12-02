@@ -132,14 +132,14 @@
         <fieldset>
             <legend> Patient and Doctor Join: </legend>
                 <meta name="viewport" content="width=device-width, initial-scale=1">
-                Enter the health issue of the patients and doctors you want to join:
+                Enter the health issue/specialty of the patients and doctors you want to join:
                 <br>
-                Specialty:
+                
                 <p>
                    <select name = "DoctorType">
                      <option value = "General Physician">General Physician</option>
                      <option value = "OBGYN">Obstetrician-Gynecologist</option>
-                     <option value = "Dermatologist">Dermatologist</option>
+                     <option value = "Dermatology">Dermatologist</option>
                      <option value = "Cardiology">Cardiologist</option>
                       <option value = "Neurology">Neurologist</option>
                       <option value = "Orthopedic">Orthopedist</option>
@@ -162,7 +162,7 @@
                 <br>
                 Enter the location of the patients and doctors you want to join:
                 <br>
-                Places:
+               
                 <p>
                    <select name = "Location">
                      <option value = "Boca Raton, FL">Boca Raton, FL</option>
