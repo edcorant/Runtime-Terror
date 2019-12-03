@@ -133,12 +133,4 @@
     </body>
     <br>
 
-
-
-<?php
-    
-    //echo "This text was written with PHP code!";
-    
-?>
-
 </html>

@@ -1,5 +1,5 @@
 <?php
-    //THIS IS THE HOMEPAGE OF OUR WEBSITE!!!!!!!!!!!!!!!!!!!!!!
+    // Homepage
     include_once 'dbh.inc.php';
 ?>
 

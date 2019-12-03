@@ -132,19 +132,4 @@
 </body>
 <br>
 
-
-
-
-
-
-
-
-
-<?php
-    
-   // echo "This text was written with PHP code!";
-    
-    //need remove patient, and update patient
-?>
-
 </html>
