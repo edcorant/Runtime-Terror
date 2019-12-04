@@ -1,2 +1,2 @@
 # Runtime-Terror
-This project was connected to local host using XAMPP. The database was created and manipulated in phpMyAdmin also using a local host connection. 
+This project was connected to local host using XAMPP. Both the website and the database (created and manipulated in phpMyAdmin) use this local host connection.
