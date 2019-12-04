@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
 
-<h1 style="background-color: #4CAFf0;"> Insurance Matcher! </h1>
+<h1 style="background-color: #4CAFf0;"> Insurance Matcher </h1>
 <meta charset=”UTF-8”>  <!-- //the characters we use within a website -->
 <title> Insurance </title>  <!-- //This shows on the tab of the website -->
 

@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
 
-<h1 style="background-color: #4CAFf0;"> Insurance Matcher! </h1>
+<h1 style="background-color: #4CAFf0;"> Insurance Matcher </h1>
 <meta charset=”UTF-8”>  <!-- //the characters we use within a website -->
 <title> Insurance </title>  <!-- //This shows on the tab of the website -->
 
@@ -122,7 +122,7 @@
             <legend> Remove Patient: </legend>
                 <meta name="viewport" content="width=device-width, initial-scale=1">
                 Enter the patient id of the patient to remove:
-                <br> <input type="text" name="pid" value="Enter numbers only">
+                <br> <input type="text" name="pid" value="(Enter numbers only)">
                 <br>
                 <br>
                 <input type="submit" value="Submit">

@@ -1,12 +1,7 @@
-<?php
-    // Homepage
-    include_once 'dbh.inc.php';
-?>
-
 <!DOCTYPE html>
 <html>
 
-<h1 style="background-color: #4CAFf0;"> Insurance Matcher! </h1>
+<h1 style="background-color: #4CAFf0;"> Insurance Matcher </h1>
 <meta charset=”UTF-8”>  <!-- //the characters we use within a website -->
 <title> Insurance </title>  <!-- //This shows on the tab of the website -->
 
@@ -56,13 +51,13 @@
     }
 </style>
 
-<p style="border:2px solid White;"> Welcome to our page! </p >
+<p style="border:2px solid White;"> Welcome to the Insurance Matcher Homepage! </p >
 
 <body>
     <form method="post" action ="action_page1.php">
 
         <fieldset>
-            <legend> Doctors Near Me: </legend>
+            <legend> Enter New Patient: </legend>
 
 
 
@@ -102,7 +97,7 @@
                 
             <body>
                 
-                <h4>Enter first name and last initial:</h4>
+                <h4>First name and last initial:</h4>
                 First name: <input type="text" name="FirstName" value="Johnny"><br>
                 Last initial: <input type="text" name="LastInitial" value="A"><br>
                 
